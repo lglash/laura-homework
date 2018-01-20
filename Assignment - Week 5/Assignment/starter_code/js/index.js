@@ -24,12 +24,12 @@ ELSE, stick to default background image*/
 $('#submit-btn').click(function(){
 
 //these are comments for my reference, not you Nick (but you can read them!)
-//.toLowerCase function allows for city names to be entered in either upper or lower case. i do however need to specify names
+//.toLowerCasex allows for city names to be entered in either upper or lower case. i do however need to specify names
 //the text variations on the conditionals below
 var answer = $('#city-type').val().toLowerCase();
 
 
-if (answer === 'la' || answer === 'los Angeles' || answer === 'LAX'){
+if (answer === 'la' || answer === 'los angeles' || answer === 'lax'){
   $('body').removeClass().addClass('la');
 //go to body and add a css style with the backgound image saved as specified.
 //the return false is to avoid the browser to refresh the picture
@@ -44,26 +44,22 @@ if (answer === 'la' || answer === 'los Angeles' || answer === 'LAX'){
   return false;
 
 
-   } else if (answer === 'nyc'|| answer === 'new york' || answer === 'New York City' ) {
+   } else if (answer === 'nyc'|| answer === 'new york' || answer === 'new york city' ) {
 
   $('body').removeClass().addClass('nyc');
   
   return false;
 
-//**these two below don't work and I cannot see why. Alerts don't work but see on errors on the console
+//**these two below don't work and I cannot see why. Alerts don't work but don't see any errors on the console
 
-  } else if (answer === 'San Francisco' || answer === 'SF' || answer === 'Bay Area') {
-
-  alert ('awesome!'); 
+  } else if (answer === 'San Francisco' || answer === 'sf' || answer === 'bay area') {
 
   $('body').removeClass().addClass('sf');
 
   return false;
 
 
-  } else if (answer === 'Sydney' || answer === 'Syd') {
-
-    alert ('awesome!'); 
+  } else if (answer === 'sydney' || answer === 'syd') {
 
   $('body').removeClass().addClass('sydney');
 

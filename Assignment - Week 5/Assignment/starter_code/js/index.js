@@ -50,7 +50,6 @@ if (answer === 'la' || answer === 'los angeles' || answer === 'lax'){
   
   return false;
 
-//**these two below don't work and I cannot see why. Alerts don't work but don't see any errors on the console
 
   } else if (answer === 'San Francisco' || answer === 'sf' || answer === 'bay area') {
 

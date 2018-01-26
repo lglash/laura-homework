@@ -8,18 +8,6 @@
 
 
 
-//use the array to add values to the <select> menu by using a for loop in JavaScript (don't update the HTML to do this!)
-//When the user changes the input of the drop-down, update the background image based on what they selected
-
-//Use $.append() in your iteration on the drop-down menu
-//Use the $.attr() function to update html classes
-//Get the value of user input using $.val()
-//Use the $.change event handler to capture user actions
-//Use if/else if/else conditionals to control the flow of your application
-
-
-
-
 //PSEUDOCODE for dropdown menu:
 
 //The different cities to appear on drop down menu
@@ -35,12 +23,6 @@ for (var i = 0; //assigning 0 for the loop to start counting on 0.
 }
 
 
-//on clicking on city in drop down, background image updates based on what has been selected
-
-
-
-
-//***************
 
 
 /*PSEUDOCODE for changing images when entering different names:
@@ -60,7 +42,7 @@ ELSE, stick to default background image
 
 $('#submit-btn').click(function(){
 
-//these are comments for my reference, not you Nick (but you can read them!)
+
 //.toLowerCasex allows for city names to be entered in either upper or lower case. i do however need to specify names
 //the text variations on the conditionals below
 var answer = $('#city-type').val().toLowerCase();

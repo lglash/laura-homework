@@ -52,6 +52,10 @@ main {
   vertical-align:top;
 }
 
+.exerpt {
+  display: none;
+}
+
 .testimonials {
   display: inline-block;
   width: 72%;
@@ -72,6 +76,7 @@ main {
   display: inline-block;
   width: 23%;
   margin: 20px;
+  vertical-align: top;
 
   
 }

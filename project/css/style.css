@@ -1,0 +1,190 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+body{
+  color: #121212;
+  background-color: #f0efef;
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: 1.5;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+header {
+  background-color: #00224A;
+  color: white;
+  width: 100%;
+  height: 80px;
+  padding: 20px;
+}
+
+header nav {
+  font-size: 24px;
+  display: inline-block;
+  width: 79%;
+  text-align: right;
+}
+
+header nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f9e42e;
+  display: inline-block;
+  
+}
+
+header h1{
+  color: white;
+  padding-left: 20px;
+}
+
+main {
+  color: #121212;
+  width:980px;
+  margin: 0, auto;
+  padding: 0 10px 10px 40px;
+  vertical-align:top;
+}
+
+.exerpt {
+  display: none;
+}
+
+.testimonials {
+  display: inline-block;
+  width: 72%;
+  align-content: left;
+  overflow: hidden;
+  
+
+}
+
+.testimonials .mainstory, .secondstory {
+ border-bottom: 1px solid gray; 
+  
+  
+}
+
+
+.sidebar {
+  display: inline-block;
+  width: 23%;
+  margin: 20px;
+  vertical-align: top;
+
+  
+}
+
+.testimonials, .sidebar div {
+  padding-bottom: 50px;
+}
+
+
+.signup {
+  
+  background-color: #f9e42e;
+  padding: 20px 0 20px 0;
+  text-align: center;
+  
+}
+
+footer {
+  background-color: #121212;
+  color: white;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #00224A;
+}
+
+a:hover,
+a:active,
+a:visited,
+a:focus {
+  color: #606161;
+}
+
+nav a {
+  color: #f9e42e;
+}
+
+nav a:hover,
+nav a:active,
+nav a:visited,
+nav a:focus {
+  color: #f9e42e;
+}
+
+h2 {
+  color: #00224A;
+  font-size: 35px;
+  font-weight: bold;
+  padding: 5px;
+
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #00224A;
+}
+
+.learn {
+  font-weight: bold;
+  color: #00224A;
+}
+
+.btn-blue {
+  border-radius: 5px;
+  padding: 10px 40px 10px 40px;
+  font-weight: 900;
+  background-color: #033048;
+  font-size: 16px;
+  color: white;
+  margin: 0 auto;
+}
+
+.read-more {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 3;
+  text-align: right;
+  color: #00224A;
+}
+
+
+

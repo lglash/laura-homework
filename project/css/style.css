@@ -23,16 +23,17 @@ Developer @GA in Singapore
 
 .container {
   max-width:960px;
-  margin: auto;
+  margin: 0 auto;
+  text-align: justify;
 }
 
 body{
-  color: solid gray;
+  color: #2a4747; 
   background-color: white;
   font-size: 20px;
-  font-weight: lighter;
+  font-weight:lighter;
   line-height: 1.5;
-  font-family: 'Helvetica', 'Arial', sans-serif; 
+  font-family:'Barlow Semi Condensed', sans-serif;
 }
 
 /******************************************
@@ -42,15 +43,14 @@ body{
 header {
   background-color: white;
   color: lightgray;
-  /*width: 100%;*/
-  height: 120px;
-  padding: 20px;
+  width: 100%;
+  height: 150px;
+  text-align: center;
 }
 
 header nav {
   font-size: 1.2em;
   display: inline-block;
-  text-align: center;
 }
 
 header nav ul li {
@@ -62,15 +62,10 @@ header nav ul li {
 main {
   color: #121212;
   width:980px;
-  /*margin: 0, auto;*/
-  padding: 10px;
-  
 }
 
 footer {
   clear: both;
-  background-color: darkgray;
-  color: black;
   padding-top: 20px;
   text-align: center;
   font-size: 0.5em;
@@ -84,7 +79,7 @@ a:hover,
 a:active,
 a:visited,
 a:focus {
-  color: #606161;
+  color: darkgray;
 }
 
 nav a {
@@ -95,22 +90,29 @@ nav a:hover,
 nav a:active,
 nav a:visited,
 nav a:focus {
-  color: #f9e42e;
+  color: #DFBD51;
 }
 
 .btn-transparent {
+  color: #2a4747;
   border-radius: 2px;
-  border-color: 2px solid gray;
-  padding: 25px 90px 25px 90px;
-  font-size: 1.5em;
+  border-color: 5px #2a4747;
+  background-color: #DFBD51;
+  box-shadow: 4px 4px 1px lightgray;
+  padding: 25px 300px 25px 300px;
+  font-family:'Lobster', cursive;
+  font-size: 2em;
+  letter-spacing: 2px;
   /*background: url("yourimage.png");*/
   margin: 0 auto;
 }
 
 .cookie {
-  font-size: 2.5em;
+  font-family:'Lobster', cursive;
+  font-size: 3em;
   font-weight: bold;
-  color: gray;   
+  color: #2a4747;  
+  text-shadow: 2px 2px 4px #7f9090;
 }
 
 .wrapper {
@@ -131,7 +133,7 @@ vertical-align:top;
 
 #image_float {
   padding: 0.5em;
-  float: right;  
+  float: right; 
 }
 
 span {
@@ -159,13 +161,31 @@ align-content:top;
   margin: 0 auto;
 }
 
-h1 {
-   font-family: serif;
-   font-size: 1.7em;
+.FAQ-question {
+  font-family:'Barlow Semi Condensed', sans-serif;
+  font-size: 1.8em;
+  font-weight: bold;
   text-align: left;
   color: #DFBD51;
   padding-bottom: 20px;
+  padding-top: 20px;
 }
+
+
+.FAQ-text, .gif {
+  display: inline-block;
+  width: 49%;
+  margin: 0 auto;
+  vertical-align: top;
+}
+
+/*img {
+  box-shadow: 4px 4px 1px grey;
+  border: 1px solid #8a4419;
+  border-style: inset;
+}*/
+
+
 
 
 

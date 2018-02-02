@@ -151,6 +151,11 @@ h3 {
   padding: 70px 0 70px;
   color: #fff;
 }
+
+#testimonial img {
+  width: 100%;
+  height: auto;
+}
 blockquote {
   font-size: 36px;
   font-weight: 300;
@@ -195,6 +200,8 @@ blockquote span {
 
 .post img {
   margin-bottom: 30px;
+  width: 100%;
+  height: auto;
 }
 .post p {
   font-size: 24px;

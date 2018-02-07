@@ -34,7 +34,7 @@ body{
   font-size: 20px;
   font-weight:lighter;
   line-height: 1.5;
-  font-family:'Montserrat', sans-serif;
+  font-family:'Barlow Condensed', sans-serif;
 }
 
 /******************************************
@@ -57,6 +57,10 @@ header nav ul li {
   list-style: none;
   display: inline-block;
   padding: 10px;
+}
+
+.active-page {
+  text-decoration:line-through;
 }
 
 main {
@@ -93,31 +97,24 @@ nav a:focus {
   color: #333;
 }
 
-/*.btn-transparent {
-  display: inline-block;
-  width: 30%
-  padding: 40px 200px 40px 200px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 1em;
-  margin: 0 auto;
-}*/
 
 .btn-transparent {
   color: #282726;
   border-color: #2a4747;
   padding: 25px 200px 25px 200px;
-  font-family:'Montserrat', sans-serif;
   font-size: 1.2em;
   /*background: url("yourimage.png");*/
   margin: 0 auto;
 }
+
+
 
 .cookie {
   font-family:'Lobster', cursive;
   font-size: 3em;
   font-weight: bold;
   color:#282726;
+  font-family:'Barlow Condensed', sans-serif;
   /*text-shadow: 2px 2px 4px #7f9090;*/
 }
 
@@ -155,7 +152,6 @@ span {
   font-weight: bold;
   font-size: 2em;
   color: #282726;;
-  font-family: serif;
   margin: none;
 }
 
@@ -194,11 +190,10 @@ align-content:top;
 }
 
 .FAQ-question {
-  font-family:'Barlow Semi Condensed', sans-serif;
+  font-family:'Barlow Condensed', sans-serif;
   font-size: 1.8em;
   font-weight: bold;
   text-align: left;
-  color: #DFBD51;
   padding-bottom: 20px;
   padding-top: 20px;
 }
@@ -225,6 +220,11 @@ img {
   justify-content: center;
 }
 
+footer img {
+  box-shadow: none;
+  border-style: none;
+}
+
 .staff, .back-to-top {
   font-size: 1.2em;
   font-weight: bold;
@@ -233,6 +233,47 @@ img {
 
 .back-to-top {
   padding-top: 20px;
+  color: #DFBD51;
 }
+
+
+/*form*/
+form, .gif {
+  display: inline-block;
+  width:48%;
+  text-align: left;
+}
+
+legend {
+  font-size:1.9em;
+  font-weight: bold;
+}
+
+input[type=text] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+input[type=email] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+input[type=telephone] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+/*need to style the message box too!*/
+
+label {
+  display: inline-block; 
+  width: 210px; 
+  text-align: left; 
+}
+
 
 

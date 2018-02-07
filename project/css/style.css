@@ -15,6 +15,8 @@ Developer @GA in Singapore
      -moz-box-sizing: border-box; /* Firexfox */
      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
      box-sizing: border-box; /* IE */
+     background-image: url("../images/brickwall.png");
+  
 }
 
 /******************************************
@@ -28,12 +30,11 @@ Developer @GA in Singapore
 }
 
 body{
-  color: #2a4747; 
-  background-color: white;
+  color: #2a4747;
   font-size: 20px;
   font-weight:lighter;
   line-height: 1.5;
-  font-family:'Barlow Semi Condensed', sans-serif;
+  font-family:'Montserrat', sans-serif;
 }
 
 /******************************************
@@ -41,8 +42,7 @@ body{
 /*******************************************/
 
 header {
-  background-color: white;
-  color: lightgray;
+  color: #F4976C;
   width: 100%;
   height: 150px;
   text-align: center;
@@ -79,30 +79,36 @@ a:hover,
 a:active,
 a:visited,
 a:focus {
-  color: darkgray;
+  color: #6a8a82;
 }
 
 nav a {
-  color: #DFBD51;
+  color: #333;
 }
 
 nav a:hover,
 nav a:active,
 nav a:visited,
 nav a:focus {
-  color: #DFBD51;
+  color: #333;
 }
 
+/*.btn-transparent {
+  display: inline-block;
+  width: 30%
+  padding: 40px 200px 40px 200px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+  margin: 0 auto;
+}*/
+
 .btn-transparent {
-  color: #2a4747;
-  border-radius: 2px;
-  border-color: 5px #2a4747;
-  background-color: #DFBD51;
-  box-shadow: 4px 4px 1px lightgray;
-  padding: 25px 300px 25px 300px;
-  font-family:'Lobster', cursive;
-  font-size: 2em;
-  letter-spacing: 2px;
+  color: #282726;
+  border-color: #2a4747;
+  padding: 25px 200px 25px 200px;
+  font-family:'Montserrat', sans-serif;
+  font-size: 1.2em;
   /*background: url("yourimage.png");*/
   margin: 0 auto;
 }
@@ -111,8 +117,14 @@ nav a:focus {
   font-family:'Lobster', cursive;
   font-size: 3em;
   font-weight: bold;
-  color: #2a4747;  
-  text-shadow: 2px 2px 4px #7f9090;
+  color:#282726;
+  /*text-shadow: 2px 2px 4px #7f9090;*/
+}
+
+#hola, #img-float {
+  width: 100%;
+  height: auto;
+
 }
 
 .wrapper {
@@ -121,6 +133,7 @@ vertical-align:top;
 }
 
 .contact {
+  clear: both;
   padding: 40px 0 40px 0;
   text-align: center;
   
@@ -129,19 +142,19 @@ vertical-align:top;
 
 .biography .article {
   display: block;  
+  overflow: auto;
 }
 
-#image_float {
-  padding: 0.5em;
+#image-float {
   float: right; 
-  width: 100%;
-  height: auto;
+  margin-left: 20px;
+
 }
 
 span {
   font-weight: bold;
   font-size: 2em;
-  color: #DFBD51;
+  color: #282726;;
   font-family: serif;
   margin: none;
 }
@@ -158,6 +171,23 @@ align-content:top;
   color: #DFBD51;
   padding-bottom: 20px;
 }
+
+/**FAQ section**/
+
+#answer-1 {
+  display: none;
+}
+#answer-2 {
+  display: none;
+}
+#answer-3 {
+  display: none;
+}
+
+#answer-4 {
+  display: none;
+}
+
 
 .list-of-questions {
   margin: 0 auto;
@@ -177,19 +207,32 @@ align-content:top;
 .FAQ-text, .gif {
   display: inline-block;
   width: 49%;
-  margin: 0 auto;
+  margin-left: 5px;
   vertical-align: top;
 }
 
-/*img {
-  box-shadow: 4px 4px 1px grey;
-  border: 1px solid #8a4419;
+
+
+.directors > div, .minions > div {
+  height: 500px;
+  display: inline-block;
+  width: 32%;
+}
+
+img {
+  box-shadow: 4px 4px 1px #282726;
   border-style: inset;
-}*/
+  justify-content: center;
+}
 
+.staff, .back-to-top {
+  font-size: 1.2em;
+  font-weight: bold;
+  color:#282726;
+}
 
-
-
-
+.back-to-top {
+  padding-top: 20px;
+}
 
 

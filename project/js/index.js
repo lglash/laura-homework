@@ -7,3 +7,16 @@
  	//this below is the log message to the console to verify JQuery has loaded//
  	console.log('jquery is loaded');
 
+
+$('#faq-1').click(revealAnswer1); 
+	
+function revealAnswer1() {
+
+	$('answer-1').toggle({
+		'easing' : 'swing'
+ 	
+});
+
+}
+
+});

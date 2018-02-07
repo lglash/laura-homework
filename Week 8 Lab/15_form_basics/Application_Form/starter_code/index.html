@@ -1,0 +1,77 @@
+<html>
+<head>
+  <title>Forms v1</title>
+  <link href="stylesheet.css" type="text/css" rel="stylesheet" media="all">
+  <meta name="viewport" content="width=702">
+</head>
+<body>
+  <h1>Course Application</h1>
+
+  <form>
+    <fieldset>
+      <div class="form-row">
+        <label for="name">Your Name</label>
+        <!-- ? -->
+      </div>
+
+      <div class="form-row">
+        <!-- What should be added and tied to every form input? -->
+        <div class="phone-number-fields">
+          <!-- Add an element that takes in a phone number -->
+        </div>
+      </div>
+
+      <div class="form-row">
+        <!-- What should be added and tied to every form input? -->
+        <div class="address-fields">
+          <!-- Add an element that takes in an address -->
+        </div>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Skills &amp; Interests</legend>
+
+      <div class="form-row">
+        <!-- What should be added and tied to every form input? -->
+        <select>
+          <option>Select One</option>
+          <optgroup label="Web Development">
+            <option value="front-end">Front-end</option>
+            <!-- Add Back-end -->
+          </optgroup>
+          <optgroup label="Design">
+            <!-- Add visual design and user experience courses -->
+          </optgroup>
+        </select>
+      </div>
+
+      <div class="form-row">
+        <label for="past-experience">Past Experience</label>
+        <!-- Add something to take in multi-line input -->
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Anything Else?</legend>
+
+      <div class="form-row">
+        <label for="comments">Referral</label>
+        <select>
+          <!-- Add none, friend, instructor, and online as possible options -->
+        </select>
+      </div>
+
+      <div class="form-row">
+        <label for="comments">Comments</label>
+        <!-- Add something to take in multi-line input -->
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <input type="submit" value="Save Draft">
+      <!-- Add a second button to Submit the form instead of save draft -->
+    </fieldset>
+  </form>
+</body>
+</html>

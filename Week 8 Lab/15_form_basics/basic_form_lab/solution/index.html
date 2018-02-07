@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Basic HTML form</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <h2>Course Application Form</h2>
+
+    <form action="#">
+      <div class="form-field">
+        <label class="form-label" for="full-name">Full name:</label>
+        <input id="full-name" type="text" name="full-name" placeholder="John Doe" required>
+      </div>
+      <!-- <div class="form-field">
+        <fieldset>
+          <legend>Gender</legend>
+          <input id="gender-male" type="radio" name="gender" value="male">
+          <label for="gender-male">Male</label>
+          <input id="gender-female" type="radio" name="gender" value="female">
+          <label for="gender-female">Female</label>
+        </fieldset>
+      </div> -->
+      <div class="form-field">
+        <span class="form-label">Gender:</span>
+        <input id="gender-male" type="radio" name="gender" value="male">
+        <label for="gender-male">Male</label>
+        <input id="gender-female" type="radio" name="gender" value="female">
+        <label for="gender-female">Female</label>
+      </div>
+      <div class="form-field">
+        <label class="form-label" for="email-address">Email:</label>
+        <input id="email-address" type="email" name="email" placeholder="john@doe.com" required>
+      </div>
+      <div class="form-field">
+        <label for="phone-no">Phone:</label>
+        <input id="phone-no" type="tel" name="phone-number" placeholder="87654321">
+      </div>
+      <div class="form-field">
+        <label for="home-address">Home address:</label>
+        <textarea id="home-address" name="home-address" placeholder="Your home address"></textarea>
+      </div>
+      <div class="form-field">
+        <label for="pw">Password:</label>
+        <input id="pw" type="password" name="password" placeholder="password" required>
+      </div>
+
+      <div class="form-field">
+        <label for="course-choice">Course choice:</label>
+        <select id="course-choice" name="course" required>
+          <option value="" selected disabled hidden>Choose here</option>
+          <option value="wdi">WDI</option>
+          <option value="fewd">FEWD</option>
+          <option value="uxdi">UXDI</option>
+          <option value="dsi">DSI</option>
+        </select>
+      </div>
+      <div class="form-field">
+        <label for="past-exp">Past experience:</label>
+        <textarea id="past-exp" name="experience" placeholder="I used to do... related to..."></textarea>
+      </div>
+      <div class="form-field">
+        <span>Where did you hear about us from?</span>
+        <input id="ref-social-media" type="checkbox" name="referrer" value="social-media">
+        <label for="ref-social-media">Social media</label>
+        <input id="ref-newspaper" type="checkbox" value="newspaper">
+        <label for="ref-newspaper">Newspaper</label>
+        <input id="ref-website" type="checkbox" name="referrer" value="website">
+        <label for="ref-website">Website</label>
+      </div>
+      <div class="form-field">
+        <label for="days">Which days can you attend class?</label>
+        <select id="days" multiple name="days-available">
+          <option value="monday">Monday</option>
+          <option value="tuesday">Tuesday</option>
+          <option value="wednesday">Wednesday</option>
+        </select>
+      </div>
+
+      <input type="submit">
+      <input type="reset">
+    </form>
+  </body>
+</html>

@@ -38,16 +38,11 @@ body{
 }
 
 
-html .form{
-  background-color: white;
-   }
-
 /******************************************
 /* LAYOUT
 /*******************************************/
 
 header {
-  color: #F4976C;
   width: 100%;
   height: 150px;
   text-align: center;
@@ -66,6 +61,7 @@ header nav ul li {
 
 .active-page {
   text-decoration:line-through;
+  font-size: 1.2em;
 }
 
 main {
@@ -146,7 +142,6 @@ vertical-align:top;
   
 }
 
-
 .biography .article {
   display: block;  
   overflow: auto;
@@ -156,13 +151,6 @@ vertical-align:top;
   float: right; 
   margin-left: 20px;
 
-}
-
-span {
-  font-weight: bold;
-  font-size: 2em;
-  color: #282726;;
-  margin: none;
 }
 
 .content{
@@ -201,11 +189,12 @@ align-content:top;
 
 .FAQ-question {
   font-family:'Barlow Condensed', sans-serif;
-  font-size: 1.8em;
+  font-size: 1.5em;
   font-weight: bold;
   text-align: left;
   padding-bottom: 20px;
   padding-top: 20px;
+  color:;
 }
 
 
@@ -216,7 +205,12 @@ align-content:top;
   vertical-align: top;
 }
 
-
+span {
+  font-weight: bold;
+  font-size: 2em;
+  color: #282726;;
+  margin: none;
+}
 
 .directors > div, .minions > div {
   height: 500px;
@@ -301,7 +295,7 @@ input[type=telephone] {
     border-bottom: 1px solid #000000;
 }
 
-/*need to style the message box too!*/
+/*need to style the message box*/
 
 label {
   display: inline-block; 

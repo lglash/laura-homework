@@ -266,42 +266,64 @@ footer img, .button {
 
 
 /*form*/
-form, .gif {
+.contact-deets, .contact-form {
   display: inline-block;
-  width:48%;
+  width: 49%;
   text-align: left;
+  vertical-align: top;
 }
 
-legend {
-  font-size:1.9em;
+legend, input[type=submit], .check-us {
   font-weight: bold;
+  color: #23B0CA;
 }
 
-input[type=text] {
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid #000000;
+legend, .check-us {
+  font-size: 1.5em;
 }
-
-input[type=email] {
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid #000000;
-}
-
-input[type=telephone] {
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid #000000;
-}
-
-/*need to style the message box*/
 
 label {
-  display: inline-block; 
-  width: 210px; 
-  text-align: left; 
+    width:180px;
+    clear:left;
+    text-align:left;
+    font-size: 1.2em;
+    padding-right:5px;
+    font-size: 1.2em;
 }
 
+input, label {
+    float:left;
+    width: 220px;
+}
+
+input {
+  background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+
+input[type=textarea] {
+  /*apparently this is better than col and rows for mobile sites*/
+  width:100%;
+  height: 100px;
+  font-size: 1em;
+  border: 1px solid #000000;
+  text-align: top;
+  margin-top: 20px;
+  font-family:'Barlow Condensed', sans-serif;
+}
+
+input[type=submit] {
+  
+  width: 50%;
+  padding: 10px;  
+  font-size: 1.2em;
+  margin-top: 20px;
+  text-align: left;
+  font-family:'Barlow Condensed', sans-serif;
+  border: none;
+  
+}
 
 

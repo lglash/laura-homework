@@ -28,41 +28,61 @@
 				</nav>
 			</header>
 			
-			<body>
-				 
-    <form>
-      <fieldset>
-        <legend>Talk to Us</legend>
-        <br>
-        <label for="text-input">Your name</label>
-        <input id="first" type="text">
+			<body> 
+       <div class="contact-form">
+       
+       <form>
+      <legend>Get in touch</legend>
+      <br>
+        <label for='text-input'>first name</label>
+        <input id='firstName' type='text'>
+<br><br>
+        <label for='text-input'>last name</label>
+        <input id='surname' type='text'>
+  <br><br>
+        <label for='email-input'>email address</label>
+        <input id='email' type='email'>
+  <br><br>
+
+        <label for='tel-input'>telephone number</label>
+        <input id="telNo" name="telNo" type="tel" minlength="9" maxlength="14">
+  <br><br>
+          <label for='interests'>tell us if you are...</label>
+          <select name="interests">
+          	<option value="" disabled selected>Select your option</option>
+            <option value="working">A potential client with a project to discuss</option>
+            <option value="client">An artist wanting to work with MC</option>
+            <option value="artist">Other</option>
+    
+<br><br>
+  <!--<label for='radio'>Course Choice</label><br>
+    <input type="radio" name="course" value="FEWD"> FEWD<br>
+    <input type="radio" name="course" value="UX"> UX<br>
+    <input type="radio" name="course" value="UI"> UI<br>-->
+
+<label for='textarea'>please tell us more</label>
+        <input id='textarea' type='textarea' placeholder="your message here">
   <br></br>
-        <label for="email-input">Your email address</label>
-        <input id="email" type="email">
-  <br></br>
 
-        <label for="tel-input">Can we give you a call?</label>
-        <input id="telephone" type="telephone" placeholder="your number here">
-          
-  <br></br>
-
-  			<label for="textarea">Your message</label>
-  			<input id="yourmessage" type="message" placeholder="your message here" rows="7" cols="40" style="width:350px;">
-
-  			<label for="submit">
-  			<input id="send" type="submit" class="btn btn-default" value="send">
-  	</fieldset>
-
+  <!--<button type="submit">submit</button> - this is what I should be using rather than the below. What's the difference?-->
+  <label for="submit"></label>
+  <input type="submit">
+<br></br>
     </form>
 
-    	<div class='gif'>
-			<iframe src="https://giphy.com/embed/sRXluJ5au1Lgc" width="480" height="349" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-		</div>
+	
+	</div>
+
+<div class="contact-deets">
+	<p class="check-us">Check our location out</p>
+	<div id="map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7792916532135!2d103.82980781448559!3d1.3076281620745578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da198d4bc95a03%3A0x1193c823c2175e89!2s8+Claymore+Hill%2C+Singapore+229572!5e0!3m2!1sen!2ssg!4v1518075951765" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
 
 			</body>
 			
 
-			<footer>
+			<!--<footer>
 				<div class="media">
 					<a href="http://facebook.com" target="_blank"><img src="images/facebook.png" alt="facebook icon">
 					<a href="http://instagram.com" target="_blank"><img src="images/instagram.png" alt="instagram icon">
@@ -71,7 +91,7 @@
 				</div>
 				
 				<p class="footer">&copy;2018. mural collective.</p>
-			</footer>
+			</footer>-->
 
  		</div>
 

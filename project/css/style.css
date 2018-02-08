@@ -37,6 +37,11 @@ body{
   font-family:'Barlow Condensed', sans-serif;
 }
 
+
+html .form{
+  background-color: white;
+   }
+
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -99,10 +104,12 @@ nav a:focus {
 
 
 .btn-transparent {
-  color: #282726;
-  border-color: #2a4747;
+  border-color: 2px solid #008cdd;
   padding: 25px 200px 25px 200px;
+  color: white;
   font-size: 1.2em;
+  background: #008cdd;
+  opacity: 0.5;
   /*background: url("yourimage.png");*/
   margin: 0 auto;
 }
@@ -212,6 +219,28 @@ align-content:top;
   height: 500px;
   display: inline-block;
   width: 32%;
+  position: relative;
+}
+
+.directors > div p, .minions > div p {
+  position: absolute;
+  top: 0;
+  background: #008cdd;
+  opacity: 0.5;
+  display: none;
+  padding: 30px;
+  height: 100px;
+  width: 96%;
+  color: white;
+  text-align: left;
+}
+
+.directors > div.hover p {
+  display: block;
+}
+
+.minions > div.hover p {
+  display: block;
 }
 
 img {

@@ -13,7 +13,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Lobster|Barlow Condensed" rel="stylesheet">
 
 	</head>
-<body>
+<body class="form">
 		<div class='container'>
 			<header>
 				<nav>
@@ -41,7 +41,7 @@
   <br></br>
 
         <label for='tel-input'>Can we give you a call?</label>
-        <input id='telephone' type='telephone' placeholder='your number here'>
+        <input id='telephone' type='telephone' placeholder="your number here">
           <!--<label for='referredby'>Where did you hear about us?</label>
           <select name="referredby">
             <option value="social">Social Media</option>
@@ -50,9 +50,11 @@
   <br></br>
 
   			<label for="textarea">Your message</label>
-  			<input id="yourmessage" type="message" placeholder="your message here"
+  			<input id="yourmessage" type="message" placeholder="your message here" rows="7" cols="40" style="width:350px;">
 
-  </fieldset>
+  			<label for="submit">
+  			<input id="send" type="submit" class="btn btn-default" value="send">
+  	</fieldset>
 
     </form>
 
@@ -65,9 +67,10 @@
 
 			<footer>
 				<div class="media">
-					<a href="http://facebook.com" target="_blank"><img src="images/facebook.png" alt="facebook icon"></a>
-					<a href="http://instagram.com" target="_blank"><img src="images/instagram.png" alt="instagram icon"></a>
-					<a href="http://twitter.com" target="_blank"><img src="images/twitter.png" alt="twitter icon"></a>
+					<a href="http://facebook.com" target="_blank"><img src="images/facebook.png" alt="facebook icon">
+					<a href="http://instagram.com" target="_blank"><img src="images/instagram.png" alt="instagram icon">
+					<a href="http://twitter.com" target="_blank"><img src="images/twitter.png" alt="twitter icon">
+				
 				</div>
 				
 				<p>&copy;2018. Half Eaten Cookie.</p>

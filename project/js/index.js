@@ -7,16 +7,18 @@
  	//this below is the log message to the console to verify JQuery has loaded//
  	console.log('jquery is loaded');
 
+  $(".directors > div").each( function() {
+    $(this).hover(function() {
+      $(this).toggleClass("hover");
+    });
+    
+  });
 
-$('#faq-1').click(revealAnswer1); 
-	
-function revealAnswer1() {
-
-	$('answer-1').toggle({
-		'easing' : 'swing'
- 	
-});
-
-}
-
+   $(".minions > div").each( function() {
+    $(this).hover(function() {
+      $(this).toggleClass("hover");
+    });
+    
+  });
+  
 });

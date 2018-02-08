@@ -26,7 +26,68 @@
 
 //FAQs//
 
+ $('#faq-1').click(showAnswer1);
+ $('#faq-2').click(showAnswer2);
+ /*$('#faq-3').click(showAnswer3);
+ $('#faq-4').click(showAnswer4);*/
 
+function showAnswer1() {
+    var toggleButton = $('#faq-1');
+    var findAnswer = $(toggleButton).parent().find('.answer');
 
+    if ($(findAnswer).data('state') === 'hidden') {
+      $(findAnswer).data('state', 'show');
+      $(findAnswer).show();
+
+    } else {
+      $(findAnswer).data('state', 'hidden');
+      $(findAnswer).hide();
+      
+
+    }
+  }
+
+function showAnswer2() {
+    var toggleButton = $('#faq-2');
+    var findAnswer = $(toggleButton).parent().find('.answer');
+
+    if ($(findAnswer).data('state') === 'hidden') {
+      $(findAnswer).data('state', 'show');
+      $(findAnswer).show();
+      
+    } else {
+      $(findAnswer).data('state', 'hidden');
+      $(findAnswer).hide();
+
+    }
+  }
+
+/*function showAnswer3() {
+    var toggleButton = $('#faq-3');
+    var findAnswer = $(toggleButton).parent().find('.answer');
+
+    if ($(findAnswer).data('state') === 'hidden') {
+      $(findAnswer).data('state', 'show');
+      $(findAnswer).show();
+
+    } else {
+      $(findAnswer).data('state', 'hidden');
+      $(findAnswer).hide();
+    }
+  }
+
+function showAnswer4() {
+    var toggleButton = $('#faq-4');
+    var findAnswer = $(toggleButton).parent().find('.answer');
+
+    if ($(findAnswer).data('state') === 'hidden') {
+      $(findAnswer).data('state', 'show');
+      $(findAnswer).show();
+
+    } else {
+      $(findAnswer).data('state', 'hidden');
+      $(findAnswer).hide();
+    }
+  }*/
   
 });

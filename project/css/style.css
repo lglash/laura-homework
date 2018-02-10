@@ -273,6 +273,10 @@ footer img, .button {
   vertical-align: top;
 }
 
+#map {
+  text-align: center;
+}
+
 legend, input[type=submit], .check-us {
   font-weight: bold;
   color: #23B0CA;

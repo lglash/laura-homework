@@ -78,6 +78,5 @@ function showAnswer3() {
 
     }
   }
-
   
 });

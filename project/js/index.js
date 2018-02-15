@@ -1,11 +1,11 @@
 //this is the log message to console to verify that JS file is loaded//
 
- console.log ('javascript file linked to index.html');
+ console.log ("javascript file linked to index.html");
 
  //this below is for JS to execute only after all elements have rendered on the page//
  $(document).ready(function(){
  	//this below is the log message to the console to verify JQuery has loaded//
- 	console.log('jquery is loaded');
+ 	console.log("jquery is loaded");
 
 
 
@@ -28,21 +28,21 @@
 
 //FAQs//
 
- $('#faq-1').click(showAnswer1);
- $('#faq-2').click(showAnswer2);
- $('#faq-3').click(showAnswer3);
- $('#faq-4').click(showAnswer4);
+ $("#faq-1").click(showAnswer1);
+ $("#faq-2").click(showAnswer2);
+ $("#faq-3").click(showAnswer3);
+ 
 
 function showAnswer1() {
-    var toggleButton = $('#faq-1');
-    var findAnswer = $(toggleButton).parent().find('.answer');
+    var toggleButton = $("#faq-1");
+    var findAnswer = $(toggleButton).parent().find(".answer");
 
-    if ($(findAnswer).data('state') === 'hidden') {
-      $(findAnswer).data('state', 'show');
+    if ($(findAnswer).data("state") === "hidden") {
+      $(findAnswer).data("state", "show");
       $(findAnswer).show();
 
     } else {
-      $(findAnswer).data('state', 'hidden');
+      $(findAnswer).data("state", "hidden");
       $(findAnswer).hide();
       
 
@@ -50,33 +50,45 @@ function showAnswer1() {
   }
 
 function showAnswer2() {
-    var toggleButton = $('#faq-2');
-    var findAnswer = $(toggleButton).parent().find('.answer');
+    var toggleButton = $("#faq-2");
+    var findAnswer = $(toggleButton).parent().find(".answer");
 
-    if ($(findAnswer).data('state') === 'hidden') {
-      $(findAnswer).data('state', 'show');
+    if ($(findAnswer).data("state") === "hidden") {
+      $(findAnswer).data("state", "show");
       $(findAnswer).show();
       
     } else {
-      $(findAnswer).data('state', 'hidden');
+      $(findAnswer).data("state", "hidden");
       $(findAnswer).hide();
 
     }
   }
 
 function showAnswer3() {
-    var toggleButton = $('#faq-3');
-    var findAnswer = $(toggleButton).parent().find('.answer');
+    var toggleButton = $("#faq-3");
+    var findAnswer = $(toggleButton).parent().find(".answer");
 
-    if ($(findAnswer).data('state') === 'hidden') {
-      $(findAnswer).data('state', 'show');
+    if ($(findAnswer).data("state") === "hidden") {
+      $(findAnswer).data("state", "show");
       $(findAnswer).show();
 
     } else {
-      $(findAnswer).data('state', 'hidden');
+      $(findAnswer).data("state", "hidden");
       $(findAnswer).hide();
 
     }
   }
+
+  
+  $('#parsley-form').parsley().on('field:validated', function() {
+    var ok = $('.parsley-error').length === 0;
+    $('.bs-callout-info').toggleClass('hidden', !ok);
+    $('.bs-callout-warning').toggleClass('hidden', ok);
+  })
+  .on('form:submit', function() {
+    return false; // Don't submit form for this form
+  });
+
+
   
 });

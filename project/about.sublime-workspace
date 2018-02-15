@@ -1,0 +1,473 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"content",
+				"justify-content"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"BORE",
+				"border-radius"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"text",
+				"text-input"
+			],
+			[
+				"backgroud",
+				"background-color"
+			],
+			[
+				"show",
+				"showMorePost1"
+			],
+			[
+				"toLo",
+				"toLowerCase"
+			],
+			[
+				"tolower",
+				"toLowerCase"
+			],
+			[
+				"sh",
+				"showMorePost1"
+			],
+			[
+				"read",
+				"read-more-post-1"
+			],
+			[
+				"stop",
+				"stopLight"
+			],
+			[
+				"il",
+				"illuminateGreen"
+			],
+			[
+				"ill",
+				"illuminateYellow"
+			],
+			[
+				"illui",
+				"illuminateGreen"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"backgrou",
+				"background-image"
+			],
+			[
+				"bottom",
+				"border-bottom"
+			],
+			[
+				"posit",
+				"object-position"
+			],
+			[
+				"bo",
+				"bolder"
+			],
+			[
+				"flex",
+				"inline-flex"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"block",
+				"inline-block"
+			],
+			[
+				"shad",
+				"box-shadow"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"trans",
+				"transform"
+			],
+			[
+				"border",
+				"border-right"
+			],
+			[
+				"text-decora",
+				"text-decoration-color"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"backgo",
+				"background-color"
+			],
+			[
+				"sty",
+				"list-style"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"s",
+				"src\tAttr"
+			],
+			[
+				"wi",
+				"max-width"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"wid",
+				"min-width"
+			],
+			[
+				"backgroun",
+				"background-size"
+			],
+			[
+				"img",
+				"background-image"
+			],
+			[
+				"top",
+				"margin-top"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"Fo",
+				"font-size"
+			],
+			[
+				"paddig",
+				"padding-left"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"font-t",
+				"font-style"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"bkac",
+				"background-color"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"Padding",
+				"padding-top"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"alig",
+				"text-align"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/lauragillasheras/Desktop/laura-homework/Assignment - Week 4/Relaxr Week 3/js/index.js",
+		"/Users/lauragillasheras/Desktop/laura-homework/Assignment - Week 4/Relaxr Week 3/index.html",
+		"/Users/lauragillasheras/Desktop/laura-homework/project/services.html",
+		"/Users/lauragillasheras/Desktop/laura-homework/project/team.html",
+		"/Users/lauragillasheras/Desktop/laura-homework/project/projects.html",
+		"/Users/lauragillasheras/Desktop/laura-homework/project/index.html",
+		"/Users/lauragillasheras/Desktop/laura-homework/project/about.html",
+		"/Users/lauragillasheras/Desktop/laura-homework/index_form.html",
+		"/Users/lauragillasheras/Desktop/laura-homework/Assignment - Week 6/css/style.css",
+		"/Users/lauragillasheras/Desktop/laura-homework/project/css/style.css",
+		"/Users/lauragillasheras/Desktop/laura-homework/project/FAQs.html",
+		"/Users/lauragillasheras/Desktop/laura-homework/Assignment - Week 3/Relaxr Week 3/css/style.css",
+		"/Users/lauragillasheras/Desktop/laura-homework/Assignment - Week 3/Relaxr Week 3/index.html",
+		"/Users/lauragillasheras/Desktop/laura-homework/ Assignment - Week 7/starter_code/css/style.css",
+		"/Users/lauragillasheras/Desktop/FEWD-SG-7/Week_07_Multiple_Screens/13_responsive_basics/solution/mobile_boxes/css/boxing_media_query.css",
+		"/Users/lauragillasheras/Desktop/FEWD-SG-7/Week_07_Multiple_Screens/13_responsive_basics/solution/mobile_boxes/css/boxing_2.css",
+		"/Users/lauragillasheras/Desktop/FEWD-SG-7/Week_07_Multiple_Screens/13_responsive_basics/solution/mobile_boxes/css/boxing_1.css",
+		"/Users/lauragillasheras/Desktop/FEWD-SG-7/Week_07_Multiple_Screens/13_responsive_basics/solution/mobile_boxes/index.html",
+		"/Users/lauragillasheras/Library/Mobile Documents/com~apple~CloudDocs/.Trash/FEWD-SG-7/Week_07_Multiple_Screens/13_responsive_basics/solution/Responsive_Boxes/index.html",
+		"/Users/lauragillasheras/Desktop/FEWD-SG-7/Week_07_Multiple_Screens/13_responsive_basics/starter_code/mobile_boxes/index.html",
+		"/Users/lauragillasheras/Library/Mobile Documents/com~apple~CloudDocs/.Trash/FEWD-SG-7/Week_07_Multiple_Screens/13_responsive_basics/solution/Responsive_Boxes/css/boxing_media_query.css",
+		"/Users/lauragillasheras/Library/Mobile Documents/com~apple~CloudDocs/.Trash/FEWD-SG-7/Week_07_Multiple_Screens/13_responsive_basics/solution/Responsive_Boxes/css/boxing_2.css",
+		"/Users/lauragillasheras/Library/Mobile Documents/com~apple~CloudDocs/.Trash/FEWD-SG-7/Week_07_Multiple_Screens/13_responsive_basics/solution/Responsive_Boxes/css/boxing_1.css",
+		"/Users/lauragillasheras/Desktop/FEWD-SG-7/Week_07_Multiple_Screens/13_responsive_basics/starter_code/mobile_boxes/css/boxing_1.css",
+		"/Users/lauragillasheras/Desktop/FEWD-SG-7/Week_07_Multiple_Screens/13_responsive_basics/starter_code/mobile_boxes/css/boxing_2.css",
+		"/Users/lauragillasheras/Desktop/FEWD-SG-7/Week_07_Multiple_Screens/13_responsive_basics/starter_code/mobile_boxes/css/boxing_media_query.css",
+		"/Users/lauragillasheras/Desktop/laura-homework/Assignment - Week 3/startupmatchmaker- Week 3/css/style.css",
+		"/Users/lauragillasheras/Desktop/laura-homework/Assignment - Week 6/js/index.js",
+		"/Users/lauragillasheras/Desktop/laura-homework/Assignment - Week 6/index.html",
+		"/Users/lauragillasheras/Desktop/catch up exercises/Relaxr collapsible divs/css/style.css",
+		"/Users/lauragillasheras/Desktop/catch up exercises/Relaxr collapsible divs/index.html",
+		"/Users/lauragillasheras/Desktop/catch up exercises/Relaxr collapsible divs/js/index.js",
+		"/Users/lauragillasheras/Desktop/catch up exercises/Week_04_Intro_Programming/Assignment/starter_code/js/main.js",
+		"/Users/lauragillasheras/Desktop/catch up exercises/Week_04_Intro_Programming/Assignment/starter_code/index.html",
+		"/Users/lauragillasheras/Desktop/catch up exercises/Week_04_Intro_Programming/Assignment/starter_code/css/style.css",
+		"/Users/lauragillasheras/Desktop/laura-homework/Assignment - Week 4/Relaxr Week 3/css/style.css",
+		"/Users/lauragillasheras/Desktop/catch up exercises/Week_04_Intro_Programming/08_Intro_jQuery/starter_code/traffic_light/index.html",
+		"/Users/lauragillasheras/Desktop/catch up exercises/Week_04_Intro_Programming/08_Intro_jQuery/starter_code/traffic_light/js/index.js",
+		"/Users/lauragillasheras/Desktop/catch up exercises/Week_04_Intro_Programming/07_intro_programming/solutions/color_scheme_switcher/js/index.js",
+		"/Users/lauragillasheras/Desktop/FEWD-SG-7/Week_04_Intro_Programming/07_intro_programming/solutions/color_scheme_switcher/js/index.js",
+		"/Users/lauragillasheras/Desktop/FEWD-SG-7/Week_04_Intro_Programming/08_Intro_jQuery/starter_code/traffic_light/js/index.js",
+		"/Users/lauragillasheras/Desktop/FEWD-SG-7/Week_04_Intro_Programming/08_Intro_jQuery/starter_code/traffic_light/index.html",
+		"/Users/lauragillasheras/Desktop/FEWD-SG-7/Week_04_Intro_Programming/07_intro_programming/solutions/color_scheme_switcher/index.html",
+		"/Users/lauragillasheras/Desktop/catch up exercises/js/index.js",
+		"/Users/lauragillasheras/Desktop/catch up exercises/index.js",
+		"/Users/lauragillasheras/Desktop/laura-homework/Assignment - Week 5/Assignment/starter_code/css/style.css",
+		"/Users/lauragillasheras/Desktop/laura-homework/Assignment - Week 5/Assignment/starter_code/js/index.js",
+		"/Users/lauragillasheras/Desktop/FEWD-SG-7/Week_06_Review_Refactor/12_refactor/solution/coa_color_scheme/solution/js/main.js",
+		"/Users/lauragillasheras/Desktop/FEWD-SG-7/Week_06_Review_Refactor/12_refactor/solution/coa_color_scheme/solution/index.html",
+		"/Users/lauragillasheras/Desktop/FEWD-SG-7/Week_06_Review_Refactor/12_refactor/solution/coa_color_scheme/solution/css/style.css",
+		"/Users/lauragillasheras/Desktop/laura-homework/Assignment - Week 5/index.js",
+		"/Users/lauragillasheras/Desktop/laura-homework/Week - 6/11_lab_rock_paper_scissors/index.html",
+		"/Users/lauragillasheras/Desktop/laura-homework/index.js",
+		"/Users/lauragillasheras/Desktop/FEWD-SG-7/Week_06_Review_Refactor/11_lab_rock_paper_scissors/js/main.js",
+		"/Users/lauragillasheras/Desktop/laura-homework/Assignment - Week 5/cash_register/js/index.js",
+		"/Users/lauragillasheras/Desktop/FEWD-SG-7/Week_05_JS_ComputerScience/10_functions/solution/cash_register/js/index.js",
+		"/Users/lauragillasheras/Desktop/FEWD-SG-7/Week_04_Intro_Programming/Assignment/solution_code/js/main.js",
+		"/Users/lauragillasheras/Desktop/FEWD-SG-7/Week_04_Intro_Programming/faq_page_codealong/js/main.js",
+		"/Users/lauragillasheras/Desktop/FEWD-SG-7/Week_05_JS_ComputerScience/Assignment/solution_code/js/main.js",
+		"/Users/lauragillasheras/Desktop/FEWD-SG-7/Week_04_Intro_Programming/faq_page_codealong/index.html",
+		"/Users/lauragillasheras/Desktop/laura-homework/Assignment - Week 5/cash_register/index.html",
+		"/Users/lauragillasheras/Desktop/FEWD-SG-7/Week_04_Intro_Programming/Assignment/solution_code/css/style.css",
+		"/Users/lauragillasheras/Desktop/FEWD-SG-7/Week_04_Intro_Programming/Assignment/solution_code/index.html",
+		"/Users/lauragillasheras/Desktop/laurita/script.js",
+		"/Users/lauragillasheras/Desktop/FEWD-SG-7/Week_04_Intro_Programming/07_intro_programming/solutions/color_scheme_switcher/css/style.css",
+		"/Users/lauragillasheras/Desktop/FEWD-SG-7/Week_03_Layout/Assignment/solution_code/css/style.css",
+		"/Users/lauragillasheras/Desktop/laura-homework/Relaxr Week 3/css/style.css",
+		"/Users/lauragillasheras/Desktop/laura-homework/Assignment - Week 2/fewd-hw-02/Homework FEWD-week2/css/style.css",
+		"/Users/lauragillasheras/Desktop/laura-homework/Assignment - Week 2/fewd-hw-02/Homework FEWD-week2/index.html",
+		"/Users/lauragillasheras/Desktop/laura-homework/startupmatchmaker- Week 3/css/style.css",
+		"/Users/lauragillasheras/Desktop/laura-homework/startupmatchmaker- Week 3/index.html",
+		"/Users/lauragillasheras/Desktop/FEWD-SG-7/Week_03_Layout/06_HTML_CSS_Lab/starter_code/startup_matchmaker/index.html",
+		"/Users/lauragillasheras/Desktop/homework - fewd/fewd-hw-02/Homework FEWD-week2/index.html",
+		"/Users/lauragillasheras/Desktop/Assignment - Week 2/starter_code/design_file",
+		"/Users/lauragillasheras/Desktop/homework - fewd/fewd-hw-02/Homework FEWD-week2/css/style.css",
+		"/Users/lauragillasheras/Desktop/FEWD-SG-7/Week_02_Styling/Assignment/solution_code/css/style.css",
+		"/Users/lauragillasheras/Desktop/FEWD-SG-7/Week_02_Styling/Assignment/solution_code/index.html",
+		"/Users/lauragillasheras/Desktop/homework - fewd/fewd-hw-02/css/style.css",
+		"/Users/lauragillasheras/Desktop/homework - fewd/fewd-hw-02/FEWD-SG-7_Week_02_Styling_03_box_model_starter_code at master · ga-students_FEWD-SG-7_files/frameworks-c9193575f18b28be82c0a963e144ff6fa7a809dd8ae003a1d1e5979bed3f7f00.css",
+		"/Users/lauragillasheras/Desktop/Assignment - Week 2/README.md",
+		"/Users/lauragillasheras/Desktop/Assignment - Week 2/solution_code/css/style.css",
+		"/Users/lauragillasheras/Desktop/Assignment - Week 2/solution_code/css/reset.css",
+		"/Users/lauragillasheras/Desktop/Assignment - Week 2/starter_code/css/style.css",
+		"/Users/lauragillasheras/Desktop/Assignment - Week 2/rubric.md",
+		"/Users/lauragillasheras/Desktop/homework - fewd/fewd-hw-02/index.html",
+		"/Users/lauragillasheras/Desktop/homework - fewd/fewd-hw-02/home.html",
+		"/Users/lauragillasheras/Desktop/homework - fewd/home.html",
+		"/Users/lauragillasheras/Desktop/homework - fewd/fewd-hw-01/index.html",
+		"/Users/lauragillasheras/Desktop/homework - fewd/fewd-hw-01/portfolio.html",
+		"/Users/lauragillasheras/Desktop/homework - fewd/fewd-hw-01/sample-portfolio.jpg",
+		"/Users/lauragillasheras/Desktop/homework - fewd/fewd-hw-01/css/style.css",
+		"/Users/lauragillasheras/Desktop/homework - fewd/fewd-hw-01/sample-home.png",
+		"/Users/lauragillasheras/Desktop/homework - fewd/CSS/style.css"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 27.0
+	},
+	"pinned_build_system": "",
+	"project": "about.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 168.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

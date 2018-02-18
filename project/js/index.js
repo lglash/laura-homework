@@ -79,16 +79,29 @@ function showAnswer3() {
     }
   }
 
-  
-  $('#parsley-form').parsley().on('field:validated', function() {
-    var ok = $('.parsley-error').length === 0;
-    $('.bs-callout-info').toggleClass('hidden', !ok);
-    $('.bs-callout-warning').toggleClass('hidden', ok);
-  })
-  .on('form:submit', function() {
-    return false; // Don't submit form for this form
-  });
+//CAROUSEL//
 
+   
 
+//CONTACT FORM
+
+  // bind parsley to the form
+        $("#parsley-form").parsley();
+
+        // on form submit
+        $("#parsley-form").on('submit', function(event) {
+            // validate form with parsley.
+            $(this).parsley().validate();
+
+            // if this form is valid
+            if ($(this).parsley().isValid()) {
+                // show alert message
+                alert('no client side errors!');
+            }
+
+            // prevent default so the form doesn't submit. We can return true and
+            // the form will be submited or proceed with a ajax request.
+            event.preventDefault();
+        });
   
 });

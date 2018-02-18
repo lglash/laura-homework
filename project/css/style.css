@@ -43,6 +43,10 @@ body{
 /* LAYOUT
 /*******************************************/
 
+/*****
+/* HEADER
+/*****/
+
 header {
   width: 100%;
   height: 150px;
@@ -294,6 +298,87 @@ h1 {
     font-size: 1.4em;
 }
 
+
+/*****
+/* PROJECTS
+/*****/
+
+.slider {
+  box-shadow: 0px 4px 10px #9d9d9d;
+  padding: 0;
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 700px;
+  /*border-radius: 4px;*/
+}
+
+.slider ul {
+  width: 1000%;
+  height: auto;
+  position: relative;
+  list-style: none;
+  /*left: 0;
+  margin: 0;
+  padding: 0;
+  line-height: 0;*/
+  -moz-animation:slide-animation 15s infinite;
+  -webkit-animation:slide-animation 15s infinite;
+}
+
+.slider ul:hover {
+  -moz-animation-play-state:paused;
+  -webkit-animation-play-state:paused;
+}
+
+.slider li {
+  width: 10%;
+  list-style: none;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  /*border-radius: 4px;*/
+}
+
+span {
+  position: relative;
+  height: 80px;
+  display: block;
+  font-size: 1em;
+  color: black;
+  padding: 20px 20px 0px 20px;
+  overflow: hidden;
+}
+
+@-webkit-keyframes slide-animation {
+  1% {left: 0%; opacity: 1;}
+  18% {left: 0%; opacity: 1}
+  19% {opacity: 0.2;}
+  20% {left: -100%; opacity: 1;}
+  58% {left: -100%; opacity: 1;}
+  59% {opacity: 0.2;}
+  60% {left: -200%; opacity: 1;}
+  98% {left: -200%; opacity: 1;}
+  99% {opacity: 0.5;}
+  100% {left: 0%;}
+}
+
+@-moz-keyframes slide-animation {
+  1% {left: 0%; opacity: 1;}
+  18% {left: 0%; opacity: 1}
+  19% {opacity: 0.2;}
+  20% {left: -100%; opacity: 1;}
+  58% {left: -100%; opacity: 1;}
+  59% {opacity: 0.2;}
+  60% {left: -200%; opacity: 1;}
+  98% {left: -200%; opacity: 1;}
+  99% {opacity: 0.5;}
+  100% {left: 0%;}
+}
+
 /*****
 /* FAQs
 /*****/
@@ -392,9 +477,6 @@ footer img, .button {
 /* FORM
 /*****/
 
-
-
-
 legend, input[type=submit] {
   font-weight: bold;
   color: #23B0CA;
@@ -434,14 +516,14 @@ input[type=textarea] {
 }
 
 input[type=submit] {
-  
-  width: 50%;
-  padding: 10px;  
-  font-size: 1.2em;
   margin-top: 20px;
+  background-color: transparent;
+  padding: 12px 20px;
+  font-size: 1.2em;
   text-align: left;
   font-family:'Barlow Condensed', sans-serif;
-  border: none;
+  border: none; /*otherwise a bottom line will apply as with rest of form inputs*/
+  cursor: pointer;
 }
 
 .content{
@@ -477,10 +559,13 @@ width: 70%;
   margin: 70px auto;
   padding: 20px;
   border-radius: 5px;
-  width: 50%;
-  position: relative;
-  transition: all 5s ease-in-out;
+  box-shadow: 4px 4px 1px #282726;
+  border-style: inset;
   border: 1px solid black;
+  width: 60%;
+  position: relative; /*position on center of screen taking up 60% of it*/
+  transition: all 5s ease-in-out;
+  
 }
 
 
@@ -497,16 +582,12 @@ width: 70%;
 .popup .close:hover {
   color: #23B0CA;
 }
-.popup .content {
-  max-height: 50%;
-  overflow: auto;
-}
 
 /*parsley pop up alerts below, hidden to start with*/
 .hidden  {
-display: none; /* pop up is hidden to start with*/
+display: none; /* message hidden to start with*/
 }
 
-.bs-callout {
-display: block; /* pop up is hidden to start with*/
+/*.bs-callout {
+display: block; /* pop ups show either something wrong/submitted succesfully*/
 }

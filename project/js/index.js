@@ -78,9 +78,6 @@ function showAnswer3() {
 
     }
   }
-
-//CAROUSEL//
-
    
 
 //CONTACT FORM
@@ -95,13 +92,16 @@ function showAnswer3() {
 
             // if this form is valid
             if ($(this).parsley().isValid()) {
-                // show alert message
-                alert('no client side errors!');
-            }
+                
+            $('.bs-callout-info').removeClass('hidden');
+            $('.bs-callout-warning').addClass('hidden');
 
-            // prevent default so the form doesn't submit. We can return true and
-            // the form will be submited or proceed with a ajax request.
-            event.preventDefault();
-        });
+        } else {
+          //if this form contains errors
+            $('.bs-callout-info').addClass('hidden');
+            $('.bs-callout-warning').removeClass('hidden');
+        }
+
+
   
 });

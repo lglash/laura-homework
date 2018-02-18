@@ -95,9 +95,8 @@ nav a:focus {
 
 .cookie {
   font-size: 3em;
-  font-weight: bold;
+  font-family:'Lobster';
   color:#282726;
-  font-family:'Barlow Condensed', sans-serif;
 }
 
 main {
@@ -276,8 +275,6 @@ margin: 0 10px 0 10px;
 
 }
 
-
-
 .read-more {
   font-weight: bold;
   text-align: left;
@@ -304,23 +301,25 @@ h1 {
 /*****/
 
 .slider {
-  box-shadow: 0px 4px 10px #9d9d9d;
+  box-shadow: none;
   padding: 0;
   margin: 0 auto;
   overflow: hidden;
   max-width: 700px;
-  /*border-radius: 4px;*/
+}
+
+.slider ul li {
+  list-style: none;
+  margin: 0;
+  padding: 20px;
 }
 
 .slider ul {
   width: 1000%;
   height: auto;
   position: relative;
-  list-style: none;
-  /*left: 0;
-  margin: 0;
-  padding: 0;
-  line-height: 0;*/
+  left: 0;
+  line-height: 0;
   -moz-animation:slide-animation 15s infinite;
   -webkit-animation:slide-animation 15s infinite;
 }
@@ -332,24 +331,25 @@ h1 {
 
 .slider li {
   width: 10%;
-  list-style: none;
   float: left;
-  margin: 0;
-  padding: 0;
+  padding: 40px;
+}
+
+.slider p {
+  padding-top: 30px;
 }
 
 img {
   max-width: 100%;
-  /*border-radius: 4px;*/
+  box-shadow: none;
 }
 
-span {
+span-slider {
   position: relative;
-  height: 80px;
+  height: 40px;
   display: block;
   font-size: 1em;
   color: black;
-  padding: 20px 20px 0px 20px;
   overflow: hidden;
 }
 

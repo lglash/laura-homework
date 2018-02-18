@@ -94,11 +94,11 @@ function showAnswer3() {
             if ($(this).parsley().isValid()) {
                 
             $('.bs-callout-info').removeClass('hidden');
-            $('.bs-callout-warning').addClass('hidden');
+            /*$('.bs-callout-warning').addClass('hidden');*/
 
         } else {
           //if this form contains errors
-            $('.bs-callout-info').addClass('hidden');
+           /* $('.bs-callout-info').addClass('hidden');*/
             $('.bs-callout-warning').removeClass('hidden');
         }
   

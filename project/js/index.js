@@ -101,7 +101,7 @@ function showAnswer3() {
             $('.bs-callout-info').addClass('hidden');
             $('.bs-callout-warning').removeClass('hidden');
         }
-
-
   
 });
+        });
+

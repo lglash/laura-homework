@@ -79,33 +79,33 @@ function showAnswer3() {
     }
   }
 
-  //CONTACT FORM TO POP UP
 
-  //my variables: 
-var modal = $('#myModal'); //the actual pop up form
+//CONTACT FORM TO POP UP
+var modal = $("#myModal"); //the actual pop up form
 var btn = $("#myBtn"); //the button which opens the form
 var span = $(".close")[0]; // the 'X' which closes the form
 
-// open form when user clicks on the button
-btn.onclick = function() {
-    modal.style.display = "block";
-}
 
-// close form When user clicks on 'X'
-span.onclick = function() {
-    modal.style.display = "none";
-}
+$("#myBtn").click(showModal);
+$(".close").click(closeModal);
 
+function showModal() {
+    $("#myModal").css("display","block");
+    
+    }
 
-   
+function closeModal() {
+    $("#myModal").css("display","none");
+    
+    }   
 
-//CONTACT FORM - PARSLEY VALIDATION
+/////CONTACT FORM - PARSLEY VALIDATION
 
   // bind parsley to the form
         $("#parsley-form").parsley();
 
         // on form submit
-        $("#parsley-form").on('submit', function(event) {
+        $("#parsley-form").on('submit', function() {
             // validate form with parsley.
             $(this).parsley().validate();
 

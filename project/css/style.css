@@ -25,7 +25,7 @@ Developer @GA in Singapore
 /*******************************************/
 
 .container {
-  max-width:960px;
+  max-width:980px;
   margin: 0 auto;
   text-align: justify;
 }
@@ -56,9 +56,9 @@ header {
 
 header nav {
   font-size: 1.2em;
-  display: inline-block;
-  
-}
+ }
+
+
 
 header nav ul li {
   list-style: none;
@@ -105,6 +105,7 @@ main {
   color: #121212;
   width:980px;
 }
+
 
 /*****
 /* FOOTER
@@ -272,10 +273,11 @@ padding-top: 20px;
 .photo {
 flex-grow: 2;
 width: 150px;
+margin: 0 auto;
 padding-bottom: 10px;
 height: 250px;
-margin: 0 5px 0 5px;
-border: 1px solid black;
+
+
 }
 
 .info-about {
@@ -284,7 +286,7 @@ width: 300px;
 padding: 10px;
 height: 250px;
 margin: 0 10px 0 10px;
-border: 1px solid black;
+
 }
 
 .read-more {
@@ -560,7 +562,7 @@ input[type=submit] {
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #282726;
-    box-shadow: 4px 4px 1px #282726;
+    /*box-shadow: 4px 4px 1px #282726;*/
     width: 40%; /*how wide in relation to the viewport*/
 }
 

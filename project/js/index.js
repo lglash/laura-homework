@@ -78,9 +78,28 @@ function showAnswer3() {
 
     }
   }
+
+  //CONTACT FORM TO POP UP
+
+  //my variables: 
+var modal = $('#myModal'); //the actual pop up form
+var btn = $("#myBtn"); //the button which opens the form
+var span = $(".close")[0]; // the 'X' which closes the form
+
+// open form when user clicks on the button
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// close form When user clicks on 'X'
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+
    
 
-//CONTACT FORM
+//CONTACT FORM - PARSLEY VALIDATION
 
   // bind parsley to the form
         $("#parsley-form").parsley();
@@ -94,11 +113,11 @@ function showAnswer3() {
             if ($(this).parsley().isValid()) {
                 
             $('.bs-callout-info').removeClass('hidden');
-            /*$('.bs-callout-warning').addClass('hidden');*/
+            $('.bs-callout-warning').addClass('hidden');
 
         } else {
           //if this form contains errors
-           /* $('.bs-callout-info').addClass('hidden');*/
+           $('.bs-callout-info').addClass('hidden');
             $('.bs-callout-warning').removeClass('hidden');
         }
   

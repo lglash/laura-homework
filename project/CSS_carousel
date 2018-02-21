@@ -33,11 +33,45 @@
 				</ul>
 			</nav>
 		</header>
-			<main>
-				<h1>Click below to see our project slideshows</h1>
-			<a href="CSS_carousel.html">CSS ONLY</a>	
-			<button><a href="carousel_bootstrap.html">BOOTSTRAP</a></button>
-				<main>
+		<main>
+			<p> CSS only carousel</p>
+			<div class="slider">
+
+
+				<ul>
+					<li>
+						<img src="images/unsplash_1.jpg"/>
+						<span class="span-slider">
+							<p>Califia Farms, LA</p>
+						</span>
+					</li>
+
+					<li>
+						<img src="images/unsplash_3.jpg"/>
+						<span class="span-slider">
+							<p>Blondie mural, NYC</p>
+						</span>
+					</li>
+
+					<li>
+						<img src="images/skatechurch_3.jpg"/>
+						<span class="span-slider">
+							<p>100 year old Church in Northern Spain transformed into a Skate Park</p>
+						</span>
+					</li>
+
+				</ul>
+			</div>
+
+
+
+		</main>	
+
+		<div class="contact">
+			
+
+			<a href="#popup1"><img class="button" src="https://3-aso.cdn.aspedia.net/sites/default/files/uploaded-content/website-content/contact_us_button2.png" height="67" width="200">
+			</div>
 
 			<footer>
 				<div class="media">

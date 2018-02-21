@@ -7,6 +7,9 @@
  	//this below is the log message to the console to verify JQuery has loaded//
  	console.log("jquery is loaded");
 
+//PROJECTS//
+//bootstrap carousel
+
 
 
 //TEAM//

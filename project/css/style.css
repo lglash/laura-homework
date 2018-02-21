@@ -314,6 +314,7 @@ h1 {
 /* PROJECTS
 /*****/
 
+/*css slider*/
 .slider {
   box-shadow: none;
   padding: 0;
@@ -391,6 +392,14 @@ span-slider {
   98% {left: -200%; opacity: 1;}
   99% {opacity: 0.5;}
   100% {left: 0%;}
+}
+
+
+#photo-container {
+  width: 960px;
+  height: 400px;
+  margin: auto;
+  background-color: #000;
 }
 
 /*****

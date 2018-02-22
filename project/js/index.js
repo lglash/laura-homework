@@ -7,8 +7,10 @@
  	//this below is the log message to the console to verify JQuery has loaded//
  	console.log("jquery is loaded");
 
-//PROJECTS//
-//bootstrap carousel
+//STICKY NAV BAR//
+
+
+
 
 
 
@@ -107,23 +109,23 @@ function closeModal() {
   // bind parsley to the form
         $("#parsley-form").parsley();
 
-        // on form submit
-        $("#parsley-form").on('submit', function() {
-            // validate form with parsley.
-            $(this).parsley().validate();
+        $("#parsley-form").on('submit', function(event) {
+    event.preventDefault();
+    // validate form with parsley.
+    $(this).parsley().validate();
 
-            // if this form is valid
-            if ($(this).parsley().isValid()) {
-                
-            $('.bs-callout-info').removeClass('hidden');
-            $('.bs-callout-warning').addClass('hidden');
+    // if this form is valid
+    if ($(this).parsley().isValid()) {
 
-        } else {
-          //if this form contains errors
-           $('.bs-callout-info').addClass('hidden');
-            $('.bs-callout-warning').removeClass('hidden');
-        }
-  
-});
+      $('.bs-callout-info').removeClass('hidden');
+      $('.bs-callout-warning').addClass('hidden');
+
+    } else {
+      //if this form contains errors
+      $('.bs-callout-info').addClass('hidden');
+      $('.bs-callout-warning').removeClass('hidden');
+    }
+
+  });
         });
 

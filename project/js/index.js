@@ -7,13 +7,6 @@
  	//this below is the log message to the console to verify JQuery has loaded//
  	console.log("jquery is loaded");
 
-//STICKY NAV BAR//
-
-
-
-
-
-
 //TEAM//
 
 //direct children of directors (top 3 images). When hovering over each image, toggle between showing hidden div/hiding it.
@@ -31,58 +24,14 @@
     
   });
 
-//FAQs//
 
- $("#faq-1").click(showAnswer1);
- $("#faq-2").click(showAnswer2);
- $("#faq-3").click(showAnswer3);
- 
 
-function showAnswer1() {
-    var toggleButton = $("#faq-1");
-    var findAnswer = $(toggleButton).parent().find(".answer");
+  $("dd").filter(":nth-child(n+4)").addClass("hide");
 
-    if ($(findAnswer).data("state") === "hidden") {
-      $(findAnswer).data("state", "show");
-      $(findAnswer).show();
-
-    } else {
-      $(findAnswer).data("state", "hidden");
-      $(findAnswer).hide();
-      
-
-    }
-  }
-
-function showAnswer2() {
-    var toggleButton = $("#faq-2");
-    var findAnswer = $(toggleButton).parent().find(".answer");
-
-    if ($(findAnswer).data("state") === "hidden") {
-      $(findAnswer).data("state", "show");
-      $(findAnswer).show();
-      
-    } else {
-      $(findAnswer).data("state", "hidden");
-      $(findAnswer).hide();
-
-    }
-  }
-
-function showAnswer3() {
-    var toggleButton = $("#faq-3");
-    var findAnswer = $(toggleButton).parent().find(".answer");
-
-    if ($(findAnswer).data("state") === "hidden") {
-      $(findAnswer).data("state", "show");
-      $(findAnswer).show();
-
-    } else {
-      $(findAnswer).data("state", "hidden");
-      $(findAnswer).hide();
-
-    }
-  }
+// On "mouseenter" slide down current dd, slideup all other dd "siblings" 
+$("dl").on("mouseenter", "dt", function(){
+  $(this).next().slideDown(200).siblings("dd").slideUp(200);
+});
 
 
 //CONTACT FORM TO POP UP

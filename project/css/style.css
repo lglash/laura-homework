@@ -12,11 +12,11 @@ Developer @GA in Singapore
 
 /* Box Model Hack */
 * {
-     -moz-box-sizing: border-box; /* Firexfox */
-     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
-     background-color: white;
-     background-image: url("../images/brickwall.png");
+ -moz-box-sizing: border-box; /* Firexfox */
+ -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+ box-sizing: border-box; /* IE */
+ background-color: white;
+ background-image: url("../images/brickwall.png");
 }
 
 
@@ -39,6 +39,9 @@ body{
   margin-top: 100px;
 }
 
+a {
+  text-decoration: none;
+}
 
 /******************************************
 /* LAYOUT
@@ -70,15 +73,6 @@ nav ul li {
   padding: 10px;
 }
 
-.active-page {
-  text-decoration:line-through;
-  font-size: 1.2em;
-}
-
-a {
-  text-decoration: none;
-}
-
 nav a {
   color: #333;
 }
@@ -96,6 +90,16 @@ nav a:focus {
   color:#282726;
 }
 
+.active-page {
+  text-decoration:line-through;
+  font-size: 1.2em;
+}
+
+.media-head-nav { /*media query nav bar*/
+  display: none;
+}
+
+
 /*****
 /* FOOTER
 /*****/
@@ -107,99 +111,96 @@ footer {
 }
 
 @font-face {
-    font-family: 'si';
-    src: url('../socicon-v1.5/socicon.eot');
-    src: url('../socicon-v1.5/socicon.eot?#iefix') format('embedded-opentype'),
-         url('../socicon-v1.5/socicon.woff') format('woff'),
-         url('../socicon-v1.5/socicon.ttf') format('truetype'),
-         url('../socicon-v1.5/socicon.svg#icomoonregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family: 'si';
+  src: url('../socicon-v1.5/socicon.eot');
+  src: url('../socicon-v1.5/socicon.eot?#iefix') format('embedded-opentype'),
+  url('../socicon-v1.5/socicon.woff') format('woff'),
+  url('../socicon-v1.5/socicon.ttf') format('truetype'),
+  url('../socicon-v1.5/socicon.svg#icomoonregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
-    @font-face {
+      @font-face {
         font-family:si;
         src: url(../socicon-v1.5/socicon.svg) format(svg);
+      }
+
+    .soc {
+      overflow:hidden;
+      margin:0; padding:0;
+      list-style:none;
     }
-}
 
-.soc {
-    overflow:hidden;
-    margin:0; padding:0;
-    list-style:none;
-}
-
-.soc li {
-    display:inline-block;
-    *display:inline;
-    zoom:1;
-}
+    .soc li {
+      display:inline-block;
+      *display:inline;
+      zoom:1;
+    }
 
 
-.soc li a {
-    font-family:si!important;
-    font-style:normal;
-    font-weight:400;
-    -webkit-font-smoothing:antialiased;
-    -moz-osx-font-smoothing:grayscale;
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    -ms-box-sizing:border-box;
-    -o-box-sizing:border-box;
-    box-sizing:border-box;
+    .soc li a {
+      font-family:si!important;
+      font-style:normal;
+      font-weight:400;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      -webkit-box-sizing:border-box;
+      -moz-box-sizing:border-box;
+      -ms-box-sizing:border-box;
+      -o-box-sizing:border-box;
+      box-sizing:border-box;
 
-    -o-transition:.1s;
-    -ms-transition:.1s;
-    -moz-transition:.1s;
-    -webkit-transition:.1s;
-    transition:.1s;
-    -webkit-transition-property: transform;
-    transition-property: transform;
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
+      -o-transition:.1s;
+      -ms-transition:.1s;
+      -moz-transition:.1s;
+      -webkit-transition:.1s;
+      transition:.1s;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
 
-    overflow:hidden;
-    text-decoration:none;
-    text-align:center;
-    display:block;
-    position: relative;
-    z-index: 1;
-    width: 38px;
-    height: 38px;
-    line-height: 38px;
-    font-size: 20px;
-    -webkit-border-radius: 52px;
-    -moz-border-radius: 52px;
-    border-radius: 52px;
-    margin-right: 0px;
-    color: #282726;
-}
+      overflow:hidden;
+      text-decoration:none;
+      text-align:center;
+      display:block;
+      position: relative;
+      z-index: 1;
+      width: 38px;
+      height: 38px;
+      line-height: 38px;
+      font-size: 20px;
+      -webkit-border-radius: 52px;
+      -moz-border-radius: 52px;
+      border-radius: 52px;
+      margin-right: 0px;
+      color: #282726;
+    }
 
-.soc-icon-last{
-    margin:0 !important;
-}
+    .soc-icon-last{
+      margin:0 !important;
+    }
 
-.soc-twitter:before {
-    content:'\e040';
-}
-.soc-instagram:before {
-    content:'\e057';
-}
-.soc-vine:before {
-    content:'\e054';
-}
-.soc-youtube:before {
-    content:'\e051';
-}
-.soc-facebook:before {
-    content:'\e041';
-}
-.soc-tumblr:before {
-    content:'\e059';
-}
-
+    .soc-twitter:before {
+      content:'\e040';
+    }
+    .soc-instagram:before {
+      content:'\e057';
+    }
+    .soc-vine:before {
+      content:'\e054';
+    }
+    .soc-youtube:before {
+      content:'\e051';
+    }
+    .soc-facebook:before {
+      content:'\e041';
+    }
+    .soc-tumblr:before {
+      content:'\e059';
+    }
 
 
 /*****
@@ -207,27 +208,25 @@ footer {
 /*****/
 
 .img-header {
-    width: 100%;
-    height: 100%;
-    height: 700px;
-    background-image: url("../images/index_img.jpg");
-    background-color: gray;
-    /* Center and scale image */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  width: 100%;
+  height: 700px; /*height auto will make it scale down accordingly, but if I apply that here the image disappears.*/
+  margin: 0 auto;
+  background-image: url("../images/index_img.jpg");
+  background-color: gray;
+  /* Center and scale image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-
-
 .wrapper {
-column-count: 2;
-vertical-align:top;
-padding-top: 20px;
+  column-count: 2;
+  vertical-align:top;
+  padding-top: 20px;
 }
 
 .contact {
-  padding: 40px 0 40px 0;
+  padding: 80px 0 40px 0;
   text-align: center;
   
 }
@@ -254,27 +253,24 @@ padding-top: 20px;
 }
 
 .about-pic:hover {
-    transform: scale(1.5); /* (150% zoom if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.5); /* (150% zoom if the zoom is too large, it will go outside of the viewport) */
 }
 
 
 .photo {
-flex-grow: 2;
-width: 150px;
-margin: 0 auto;
-padding-bottom: 10px;
-height: 250px;
-
-
+  flex-grow: 2;
+  width: 150px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  height: 250px;
 }
 
 .info-about {
-flex-grow: 1;
-width: 300px;
-padding: 10px;
-height: 250px;
-margin: 0 10px 0 10px;
-
+  flex-grow: 1;
+  width: 300px;
+  padding: 10px;
+  height: 250px;
+  margin: 0 10px 0 10px;
 }
 
 .read-more {
@@ -284,17 +280,17 @@ margin: 0 10px 0 10px;
   padding-bottom: 20px;
 }
 
+.underline-on-hover:hover {
+  text-decoration: underline;
+  font-size: 1.4em;
+}
+
 h1 {
   font-weight: bold;
   font-size: 1.4em;
   color: #23B0CA;
   line-height: 1em;
   text-align: center;
-}
-
-.underline-on-hover:hover {
-    text-decoration: underline;
-    font-size: 1.4em;
 }
 
 
@@ -311,10 +307,10 @@ h1 {
   padding-bottom: 40px;
 }
 .buttons a, .staff a{ 
-color: white;
-font-family:"Barlow Condensed";
-background-image: none; /*this is to avoid brick background image around text on buttons*/
-background-color: #23b0ca;
+  color: white;
+  font-family:"Barlow Condensed";
+  background-image: none; /*this is to avoid brick background image around text on buttons*/
+  background-color: #23b0ca;
 
 }
 
@@ -338,7 +334,7 @@ background-color: #23b0ca;
 /*css carousel*/
 
 #css-bod {
-margin-top: 10px; /*this is to remove the extra margin on the body to allow for static nav bar on all other pages*/
+  margin-top: 10px; /*this is to remove the extra margin on the body to allow for static nav bar on all other pages*/
 
 }
 
@@ -431,45 +427,32 @@ span-slider {
 
 /*carousel_bootstrap.html styled as per Bootstrap's CSS*/
 
-/*****
-/* FAQs
-/*****/
+/*ACCORDION*/
 
-#answer-1 {
+dl{
+  margin-top: 10px;
+}
+
+dt{
+  cursor: pointer;
+  font-size: 1.2em;
+  
+  line-height: 2em;
+}
+
+
+
+dd{
+  background: white;
+  border: 3px dotted #c5c5c5;
+  margin: 0px;
+  padding: 0.8em; 
+}
+
+.hide{
   display: none;
 }
-#answer-2 {
-  display: none;
-}
-#answer-3 {
-  display: none;
-}
 
-#answer-4 {
-  display: none;
-}
-
-
-.list-of-questions {
-  margin: 0 auto;
-}
-
-.FAQ-question {
-  font-family:'Barlow Condensed', sans-serif;
-  font-size: 1.5em;
-  font-weight: bold;
-  text-align: left;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  color:;
-}
-
-.FAQ-text, .gif {
-  display: inline-block;
-  width: 49%;
-  margin-left: 5px;
-  vertical-align: top;
-}
 
 /*****
 /* TEAM
@@ -539,20 +522,20 @@ legend {
 }
 
 label {
-   text-align:left;
-    font-size: 1.2em;
+ text-align:left;
+ font-size: 1.2em;
 }
 
 input, label {
-    width: 100%;
-    float: left;
+  width: 100%;
+  float: left;
 }
 
 input {
   background: transparent;
-    border: none;
-    border-bottom: 1px solid #000000;
-    width: 60%;
+  border: none;
+  border-bottom: 1px solid #000000;
+  width: 60%;
 
 }
 
@@ -597,30 +580,112 @@ input[type=submit] {
 
 /* Modal Content/Box */
 .modal-content {
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
-    border: 1px solid #282726;
-    /*box-shadow: 4px 4px 1px #282726;*/
-    width: 60%; /*how wide in relation to the viewport*/
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #282726;
+  /*box-shadow: 4px 4px 1px #282726;*/
+  width: 60%; /*how wide in relation to the viewport*/
 }
 
 /* The Close Button */
 .close {
-    color: #282726;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+  color: #282726;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
 }
-
-
 
 /*parsley pop up alerts below, hidden to start with*/
 .hidden  {
-display: none; /* message hidden to start with*/
+  display: none; /* message hidden to start with*/
 }
 
 /*.bs-callout {
-display: block; /* pop ups show either something wrong/submitted succesfully*/
+  display: block; /* pop ups show either something wrong/submitted succesfully
+  }*/
+
+  /********************/
+
+  /******** media *******/
+
+  @media screen and (max-width: 768px) {
+
+    main {
+      margin: 40px 10px 10px 10px;
+    }
+
+    /*nav bar*/
+    nav {
+      display: none;
+    }
+
+    .media-head-nav {
+      display: block;
+      width:100%;
+      position: fixed; /* Set the navbar to fixed position */
+      top: 0; /* Position the navbar at the bottom of the page */
+      z-index: 500; /*without this on team.html the body went over the nav bar*/
+    }
+
+    .media-head-nav .cookie {
+      display: block;
+      font-size:2.5em;
+    }
+
+
+    .media-head-nav ul{
+      display: inline-block;
+      list-style: none;
+    }
+
+    /*index*/
+    .img-header {
+      width: 600px;
+      height: 300px;/*have reset size manually as setting width of 100% doesn't automatically resize image on media query*/
+      margin: 10px;
+      padding: 10px;
+      margin: 0 auto;
+    }
+
+    .wrapper {
+      column-count: 1;
+      vertical-align:top;
+      padding: 20px;
+    }
+
+    /*about*/
+    .flex-grid {
+      margin-top: 40px;
+      padding: 10px;
+    }
+
+    .photo, .info-about {
+    flex-grow: 1;
+    height: 100%;
+  }
+
+    .about-pic {
+      box-shadow: none;
+    }
+
+    .about-pic:hover {
+    transform: scale(1.05); 
+  }
+
+
+    /*team*/
+    .directors > div, .minions > div {
+          height: 250px;
+  }
+
+    .staff {
+      font-size: 0.8em;
+    padding: 0px;
+    height: 300px; 
 }
+
+}
+
+
 
 

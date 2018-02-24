@@ -4,12 +4,44 @@
 		"selected_items":
 		[
 			[
-				"margin",
-				"margin-top"
+				"justfi",
+				"justify"
 			],
 			[
 				"padding",
 				"padding-top"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"width",
+				"max-width"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"dec",
+				"text-decoration"
+			],
+			[
+				"btn",
+				"button\tTag"
+			],
+			[
+				"conte",
+				"align-content"
+			],
+			[
+				"margin",
+				"margin-top"
 			],
 			[
 				"content",
@@ -116,16 +148,8 @@
 				"transform"
 			],
 			[
-				"border",
-				"border-right"
-			],
-			[
 				"text-decora",
 				"text-decoration-color"
-			],
-			[
-				"margi",
-				"margin-right"
 			],
 			[
 				"inline",
@@ -252,20 +276,39 @@
 	},
 	"file_history":
 	[
+		"/Users/lauragillasheras/Desktop/laura-homework/project/css/style.css",
+		"/Users/lauragillasheras/Desktop/laura-homework/project/CSS_carousel.html",
+		"/Users/lauragillasheras/Desktop/laura-homework/ Assignment - Week 7/starter_code/css/style.css",
+		"/Users/lauragillasheras/Desktop/laura-homework/project/index.mobile.html",
+		"/Users/lauragillasheras/Desktop/laura-homework/project/FAQs.html",
+		"/Users/lauragillasheras/Desktop/laura-homework/project/index.html",
+		"/Users/lauragillasheras/Desktop/laura-homework/ Assignment - Week 7/starter_code/index.html",
+		"/Users/lauragillasheras/Desktop/laura-homework/project/projects.html",
+		"/Users/lauragillasheras/Desktop/laura-homework/project/team.html",
+		"/Users/lauragillasheras/Desktop/laura-homework/project/about.html",
+		"/Users/lauragillasheras/Desktop/laura-homework/project/js/index.js",
+		"/Users/lauragillasheras/Desktop/laura-homework/project/carousel_bootstrap.html",
+		"/Users/lauragillasheras/Desktop/laura-homework/project/css/parsley.css",
+		"/Users/lauragillasheras/Desktop/laura-homework/project/bootstrap/css/bootstrap.css",
+		"/Users/lauragillasheras/Desktop/laura-homework/project/CSS_carousel",
+		"/Users/lauragillasheras/Desktop/laura-homework/project/carousel_bootstrap",
+		"/Users/lauragillasheras/Desktop/laura-homework/project/css/index_bs.html",
+		"/Users/lauragillasheras/Downloads/modal-box-contact-form/css/style.css",
+		"/Users/lauragillasheras/Downloads/modal-box-contact-form/index.html",
+		"/Users/lauragillasheras/Downloads/laurita/script.js",
+		"/Users/lauragillasheras/Desktop/FEWD-SG-7/Week_09_advanced_js_css_full_stack/18a_advance_arrays/starter_code/array_exercises/js/exercise.js",
+		"/Users/lauragillasheras/Desktop/laura-homework/Assignment - Week 2/fewd-hw-02/Homework FEWD-week2/index.html",
+		"/Users/lauragillasheras/Desktop/laura-homework/Assignment - Week 2/fewd-hw-02/Homework FEWD-week2/css/style.css",
+		"/Users/lauragillasheras/Desktop/laura-homework/Assignment - Week 2/solution_code/css/style.css",
+		"/Users/lauragillasheras/Desktop/laura-homework/Assignment - Week 3/Relaxr Week 3/index.html",
+		"/Users/lauragillasheras/Desktop/laura-homework/Assignment - Week 3/Relaxr Week 3/css/style.css",
+		"/Users/lauragillasheras/Desktop/laura-homework/Assignment - Week 2/solution_code/index.html",
+		"/Users/lauragillasheras/Desktop/laura-homework/project/form.html",
 		"/Users/lauragillasheras/Desktop/laura-homework/Assignment - Week 4/Relaxr Week 3/js/index.js",
 		"/Users/lauragillasheras/Desktop/laura-homework/Assignment - Week 4/Relaxr Week 3/index.html",
 		"/Users/lauragillasheras/Desktop/laura-homework/project/services.html",
-		"/Users/lauragillasheras/Desktop/laura-homework/project/team.html",
-		"/Users/lauragillasheras/Desktop/laura-homework/project/projects.html",
-		"/Users/lauragillasheras/Desktop/laura-homework/project/index.html",
-		"/Users/lauragillasheras/Desktop/laura-homework/project/about.html",
 		"/Users/lauragillasheras/Desktop/laura-homework/index_form.html",
 		"/Users/lauragillasheras/Desktop/laura-homework/Assignment - Week 6/css/style.css",
-		"/Users/lauragillasheras/Desktop/laura-homework/project/css/style.css",
-		"/Users/lauragillasheras/Desktop/laura-homework/project/FAQs.html",
-		"/Users/lauragillasheras/Desktop/laura-homework/Assignment - Week 3/Relaxr Week 3/css/style.css",
-		"/Users/lauragillasheras/Desktop/laura-homework/Assignment - Week 3/Relaxr Week 3/index.html",
-		"/Users/lauragillasheras/Desktop/laura-homework/ Assignment - Week 7/starter_code/css/style.css",
 		"/Users/lauragillasheras/Desktop/FEWD-SG-7/Week_07_Multiple_Screens/13_responsive_basics/solution/mobile_boxes/css/boxing_media_query.css",
 		"/Users/lauragillasheras/Desktop/FEWD-SG-7/Week_07_Multiple_Screens/13_responsive_basics/solution/mobile_boxes/css/boxing_2.css",
 		"/Users/lauragillasheras/Desktop/FEWD-SG-7/Week_07_Multiple_Screens/13_responsive_basics/solution/mobile_boxes/css/boxing_1.css",
@@ -319,8 +362,6 @@
 		"/Users/lauragillasheras/Desktop/FEWD-SG-7/Week_04_Intro_Programming/07_intro_programming/solutions/color_scheme_switcher/css/style.css",
 		"/Users/lauragillasheras/Desktop/FEWD-SG-7/Week_03_Layout/Assignment/solution_code/css/style.css",
 		"/Users/lauragillasheras/Desktop/laura-homework/Relaxr Week 3/css/style.css",
-		"/Users/lauragillasheras/Desktop/laura-homework/Assignment - Week 2/fewd-hw-02/Homework FEWD-week2/css/style.css",
-		"/Users/lauragillasheras/Desktop/laura-homework/Assignment - Week 2/fewd-hw-02/Homework FEWD-week2/index.html",
 		"/Users/lauragillasheras/Desktop/laura-homework/startupmatchmaker- Week 3/css/style.css",
 		"/Users/lauragillasheras/Desktop/laura-homework/startupmatchmaker- Week 3/index.html",
 		"/Users/lauragillasheras/Desktop/FEWD-SG-7/Week_03_Layout/06_HTML_CSS_Lab/starter_code/startup_matchmaker/index.html",
@@ -390,7 +431,7 @@
 	},
 	"input":
 	{
-		"height": 35.0
+		"height": 38.0
 	},
 	"layout":
 	{

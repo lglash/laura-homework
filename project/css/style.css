@@ -62,8 +62,9 @@ header {
 
 nav {
   position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the bottom of the page */
-  width: 980px; /* Full width */
+  top:0;
+  left: 0; /* Position the navbar at the bottom of the page */
+  width: 100%; /* Full width */
   z-index: 500; /*without this on team.html the body went over the nav bar*/
 }
 
